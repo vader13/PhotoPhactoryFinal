@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>About Us</title>
+
+    <!-- Bootstrap -->
+    <link href="aboutUs/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway|Covered+By+Your+Grace|Lato" rel="stylesheet"> 
+    <!--CSS Style-->
+    <link rel="stylesheet" href="aboutUs/css/style.css">
+    <!--Fontawesome CSS Style-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="aboutUs/img/icon.png" />
+  </head>
+  
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!--Header start-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+    <div class="col-md-12">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="aboutUs/img/3.png" class="img-responsive" style="width: 200px; margin-top: -16px;"></a>
+              </div>
+              <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class=""><a href="index.html">Home</a></li>
+                  <li class=""><a href="services.html">Services</a></li>
+					<li class="active"><a href="aboutUs.html">About Us</a></li>
+                  <li class=""><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+	  </div>
+	  </nav>
+  
+      <div class="container"> </div>
+    <section id="contact" class="section-padding contact">
+      <div class="container">
+        <div class="row">
+          <div class="text-center title-section">
+             <div class="container">
+				<div class="row">
+				  <div class="col-sm-3 about-single text-center col-md-12">
+				  <h2>Meet the great team behind PhotoPhactory!</h2>
+				  <p>We are a bunch of professional photographers and editors who are passionate about what they do and can't wait to share it with you!  <br/>
+          Whether you have a Wedding, a Birthday party, or a normal day that you wish to keep in your memory forever. We are the company you seek! <br/>
+          PhotoPhactory is based in Istanbul, Turkey. We offer out services all over the city.  <br/>
+
+          </p>
+					</div>
+				</div>
+      		</div>	
+          </div>
+        </div>
+      </div>
+  </section>
+   
+   <div class="container">
+   <div class="col-md-12 team">
+   <div class="col-md-3"><img src="aboutUs/img/speaker-1-hover.png"><h2>Patrick Simpson</h2><h3>DIRECTOR &#38 PHOTOGRAPHER</h3></div>
+   <div class="col-md-3"><img src="aboutUs/img/speaker-2-hover.png"><h2>Pteresa Crawford</h2><h3>PHOTOGRAPHER</h3> </div>
+   <div class="col-md-3"> <img src="aboutUs/img/speaker-4-hover.png"><h2>Kathy Watkins</h2><h3>PHOTOGRAPHER</h3></div>
+   <div class="col-md-3"> <img src="aboutUs/img/speaker-3-hover.png"><h2>Joseph Reynolds</h2><h3>VIDEOGRAPHER &#38 MOTION GRAPHICS</h3></div>
+   
+
+	   </div>
+   </div>
+    <!--footer start-->
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+			  <img src="aboutUs/img/3.png" class="footer-logo">
+			  <p class="footer-company-name">PhotoPhactory &copy; 2017</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>basaksehir </span> istanbul, turkey</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1 555 123456</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">photophactory13@gmail.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>Site Map</span>
+					<a href="index.html">Home</a><br>
+					<a href="services.html">Services</a><br>
+					<a href="aboutUs.html">About Us</a><br>
+					<a href="contactUs.html">Contact Us</a>
+				</p>
+
+				<div class="footer-icons">
+				<a href="https://www.facebook.com/PhotoPhactory-124308848219858/"><em class="fa fa-facebook"></em></a>
+				<a href="https://twitter.com/photophactory13"><em class="fa fa-twitter"></em></a> 
+				<a href="https://www.instagram.com/photophactory13/"><em class="fa fa-instagram"></em></a> 
+				<a href="https://www.youtube.com/channel/UCnVKMqe0pKwZ9m9s84AXN3w"><em class="fa fa-youtube"></em></a>
+			</div>
+
+			</div>
+
+  </footer>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      (function ($) {
+    
+    // Add smooth scrolling to all links in navbar
+    $(".navbar a,a.btn-appoint, .quick-info li a, .overlay-detail a").on('click', function(event) {
+        //event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 900, function(){
+            window.location.hash = hash;
+        });
+    });
+       
+    //jQuery to collapse the navbar on scroll
+        $(window).scroll(function() {
+            if ($(".navbar-default").offset().top > 50) {
+                $(".navbar-fixed-top").addClass("top-nav-collapse");
+            } else {
+                $(".navbar-fixed-top").removeClass("top-nav-collapse");
+            }
+        });
+        
+    })(jQuery);
+    </script>
+    
+  </body>
+</html>
